@@ -105,7 +105,7 @@ export default function EditProperty() {
   const {
     handleSubmit,
     control,
-    formState: { errors, isValid },
+    formState: { errors },
   } = useForm<NewType>({
     resolver: yupResolver(schema),
     defaultValues: {
