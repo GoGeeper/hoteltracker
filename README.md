@@ -29,4 +29,13 @@ export default {
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
-the application runs on node 21 and above
+#the application runs on node 21 and above
+run the command: yarn run dev
+
+a brief explaination on how to get the best from the app
+*register as a new user by filling the information as requested
+*login with the information entered while registering
+*invalid details will denied the user access to the protected route
+*To list a property follow ... click on the list property and follow the instruction
+
+- To view chain => click on the chain => to see property within that chain
