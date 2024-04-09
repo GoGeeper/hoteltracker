@@ -7,7 +7,7 @@ const ListProperty = lazy(() => import("../pages/ListProperty"));
 const ChainDetails = lazy(() => import("../pages/ChainDetails"));
 const PropertyDetails = lazy(() => import("../pages/PropertyDetails"));
 const EditProperty = lazy(() => import("../pages/EditProperty"));
-const Geolocation = lazy(() => import("../pages/Geolocation"));
+const GeolocationMain = lazy(() => import("../pages/GeolocationMain"));
 
 const routePath = () => {
   const routeData: {
@@ -42,7 +42,7 @@ const routePath = () => {
     },
     {
       path: "/geolocation",
-      component: Geolocation,
+      component: GeolocationMain,
       isProtected: false,
     },
     {
